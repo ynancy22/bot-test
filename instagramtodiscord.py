@@ -22,7 +22,7 @@ def discord_webhook(url,full_name,mediaimage,text):
     '''
        
     data = {
-        "username": config.USERNAME,
+        "username": config.BOTNAME,
         "avatar_url": config.AVATAR_URL,
         "embeds": [{
             "title": full_name +' | Shared New Post!',
